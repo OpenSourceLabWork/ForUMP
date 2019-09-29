@@ -64,4 +64,7 @@ public class App
         System.out.println("Printing 2D Array");
         print(multiArray);
     }
+    public static void t_case(int x_index, int y_index){
+    	
+    }
 }
