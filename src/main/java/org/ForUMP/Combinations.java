@@ -1,7 +1,5 @@
 package org.ForUMP;
 
-import java.nio.file.attribute.UserPrincipalLookupService;
-
 class Combinations { 
 	  
     /* arr[]  ---> Input Array 
@@ -57,14 +55,12 @@ class Combinations {
     }
   
     
-    public static void main (String[] args) { 
-    	
-        int arr[] = userInputs(0, 4); // later on, it will inputs from user using scanner function
-        int r = 2; 
-        int n = arr.length; 
-        printCombination(arr, n, r); 
-    	
-    	
-    	
-    } 
+//    public static void main (String[] args) { 
+//    	
+//        int arr[] = userInputs(0, 4); // later on, it will inputs from user using scanner function
+//        int r = 2; 
+//        int n = arr.length; 
+//        printCombination(arr, n, r); 
+//
+//    } 
 } 
