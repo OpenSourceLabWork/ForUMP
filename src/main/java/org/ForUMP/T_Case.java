@@ -1,14 +1,20 @@
 package org.ForUMP;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class T_Case {
 
-	public double calcute_Tcase(int x, int y, int[][] matrix){
+	public static double calcute_Tcase(int x, int y, double[][] matrix){
 		
 		double output = 0;
 		
 		int userRange[] = Combination.userInputs(x, y);
+		
+		System.out.println("User input range : ");
+		System.out.println(Arrays.toString(userRange));
+		System.out.println("________________________________________________");
+		
 		List<int[]> combinations = Combination.generate(userRange.length, 2);
 		
 		for(int[] pair : combinations){
